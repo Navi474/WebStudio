@@ -210,6 +210,7 @@ a {
 
 .our_developers {
     margin-top: 95px;
+    padding-bottom: 95px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -219,7 +220,8 @@ a {
 
 .cards_in_our_developers{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
 }
 
 .card_in_our_developers {
@@ -287,7 +289,6 @@ svg g path {
 
 .links_in_our_developers a:hover {
     background-color: #2196F3;
-
 }
 
 .links_in_our_developers a:hover svg path {
@@ -300,3 +301,40 @@ svg g path {
     margin-top: 16px;
 }
 
+.svgs_bottom {
+    margin-top: 95px;
+}
+
+.svgs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 95px;
+}
+
+.forever_clients{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+}
+
+.svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 95px;
+    transition: .3s;
+}
+
+.svg:hover svg path {
+    fill: #2196F3;
+    transition: .3s;
+}
